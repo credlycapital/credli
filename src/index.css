@@ -1,0 +1,46 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #FFFFFF;
+  --bg2: #F7F8FA;
+  --bg3: #EFF1F5;
+  --border: rgba(0, 0, 0, 0.08);
+  --text: #111214;
+  --off: #5A6070;
+  --dim: #9AA0AD;
+  --green: #25D366;
+  --green-dark: #1aad52;
+  --font: 'Plus Jakarta Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+/* REVEAL ANIMATIONS */
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+
+.reveal.on {
+  opacity: 1;
+  transform: none;
+}
+
+.d1 { transition-delay: 0.1s; }
+.d2 { transition-delay: 0.18s; }
+.d3 { transition-delay: 0.26s; }
