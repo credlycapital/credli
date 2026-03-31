@@ -64,7 +64,7 @@ export default function Footer() {
         flexWrap: 'wrap', gap: '0.5rem',
         fontSize: '12px', color: '#9AA0AD',
       }}>
-        <span>© 2025 Credli Financial Services Pvt. Ltd. All rights reserved.</span>
+        <span>© 2026 Credli Financial Services Pvt. Ltd. All rights reserved.</span>
         <span>Made with ❤️ in India</span>
       </div>
     </footer>
